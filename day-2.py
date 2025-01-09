@@ -14,9 +14,7 @@ class Solution:
             if arr[i] != 0:
                 arr[last], arr[i] = arr[i], arr[last]
                 last += 1
-#{ 
- # Driver Code Starts
-#Initial Template for Python 3
+
 
 if __name__ == '__main__':
     tc = int(input())
@@ -28,4 +26,3 @@ if __name__ == '__main__':
             print(x, end=" ")
         print()
         tc -= 1
-# } Driver Code Ends
